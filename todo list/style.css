@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(7, 21, 51);
+    color: white;
+}
+.container{
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 120px auto 0 auto;
+   max-width: 500px;
+}
+.states-container{
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid rgb(8, 236, 225);
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 100%;
+}
+.detail {
+    width: 100%;
+    font-size: 20px;
+}
+
+.progressbar {
+    width: 100%;
+    height: 5px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: aqua;
+}
+.progress {
+    width: 50%;
+    height: 5px;
+    background-color: rgb(6, 187, 6);
+}
+#numbers {
+    width: 100px;
+    height: 100px;
+    background-color:rgb(9, 226, 215);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+}
